@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero{
+    
+    background-image: linear-gradient(
+                rgba(23, 184, 2, 0.851),
+                rgba(0,0,0,0.5) ), url("../img/sherk\ 1.jpg");
+    width: 100%;
+    height: 650px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.text-hero{
+    color: #fff;
+    text-align: center;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.text-60{
+    font-size: 70px;
+    text-shadow: 0 0 6px 0 black;
+}
+.text-25{
+    font-size: 30px;
+}
+
+.info{
+    background: rgb(250, 235, 235);
+    color: rgb(47, 118, 0);
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+.color-servicios{
+   background-color:rgb(167, 234, 163);
+}
+.titulo{
+    font-weight: 300px;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*servicios*/
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgba(0, 0, 0 , 0.5);
+    width: 30%;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.6s;
+    padding: 8px 0;
+}
+
+.color-icon{
+    color: blue;
+    font-size: 50px;  
+    margin: 40px 0 20px 0;  
+}
+
+    
+
+
+.card i{
+    color: brown;
+    font-size: 50px;
+    margin: 40px 0 20px 0;
+}
+.icon1{
+    color: brown;
+    width: 30%;
+    height: auto;
+    margin: 5px 0 0 0;
+}
+.card:hover{
+    box-shadow: 0 0 6px rgba(0, 0, 0 , 0.5);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card a{
+    margin-bottom: 5px;
+    
+}
+
+/*GALERÍA*/
+.galeria{
+    
+    background: rgb(210, 198, 198);
+}
+.galeria-contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img{
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0 , 0.5);
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.img:hover{
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0 , 0.5);
+    transform: scale(1.15);
+    cursor: pointer;
+    
+    
+}
+/*Abajo*/
+.Abajo{
+    background-color:rgb(167, 234, 163);
+}
+.links{
+    width: 30%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.B{
+    
+    width: 40%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
