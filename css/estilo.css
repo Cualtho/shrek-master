@@ -48,6 +48,7 @@ body{
    background-color:rgb(167, 234, 163);
 }
 .titulo{
+    color: rgb(47, 118, 0);
     font-weight: 300px;
     font-size: 30px;
     text-align: left;
